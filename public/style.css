@@ -4,8 +4,7 @@
     margin: 0;
 }
 h1{ font-size: 3.5em;
-     color : purple;
-}
+     color : white}
 
 h2{ font-size: 2em;}
 h3{ 
@@ -16,7 +15,10 @@ p {
     color: white;
     font-size: 1.25em;
 }
-
+/* .header {
+    font-size: 1.25em;
+    color: white; 
+}*/
 body {
     font-family: ´robot´, sans-serif;
     margin: 0; 
@@ -50,14 +52,14 @@ section .carousel-control-next {
 }
 
 button:hover {
-    background-color: rgb(97, 66, 126);
+    background-color: whitesmoke;
 }
-header {
-    background-color: white;
+/* header {
+    background-color: purple;
     display: flex;
     justify-content: space-between;
     height: 130px;
-}
+} */
 
 
     
@@ -81,7 +83,7 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 90vh;
+    height: 120vh;
    
    }
 
