@@ -15,10 +15,8 @@ p {
     color: white;
     font-size: 1.25em;
 }
-/* .header {
-    font-size: 1.25em;
-    color: white; 
-}*/
+
+
 body {
     font-family: ´robot´, sans-serif;
     margin: 0; 
@@ -31,9 +29,91 @@ button {
     padding: 10px 30px;
     border-radius: 5px;
     color: white;
-    background-color: blueviolet;
+    background-color: rgb(59, 90, 228);
 }
-.carousel-control-prev {
+.header__logo a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: lighter;
+        font-size: 50px;
+}
+
+header{
+    background-color: rgb(93, 177, 177);
+    padding: 15px;
+    box-shadow: 0 0 3px black;
+    text-align: center;
+    overflow-x: hidden;
+    margin-bottom: -20px;
+  
+}
+header li {
+    display: inline;
+    padding: 5px;
+    
+
+}
+header li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+    font-size: large;
+    
+}
+header li a :hover {
+    color: royalblue;
+    
+}
+header ul #login a {
+    color: white;
+    background-color: royalblue;
+    border-radius: 30px;
+    float: right;
+    position: relative;
+    top: -120px;
+    right: 10px;
+    transition: .3s ease;
+    position: absolute;
+    height:50px ;
+    width: 150px;
+
+}
+header ul #login a :hover {
+    color: rgb(93, 177, 177);
+}
+.header_nav  {
+    
+    position: relative;
+    top: 20px;
+     
+    }
+.btn2{
+    background-color: rgb(7, 130, 161);
+    position: relative;
+    height:100px ;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px rgba(2, 64, 80, 0.445);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: scale(1.1);
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+
+} 
+.btn2:hover, .btn2:focus, .btn2:active{
+    box-shadow: 0 0 20px rgba(24, 4, 139, 0.5);  
+    -webkit-transfor : scale(1.1);
+    transform: scale(1.1);
+
+}
+
+/* .carousel-control-prev {
     width: 50px;
     height: 70px;
     align-content: space-between;
@@ -46,21 +126,28 @@ section .carousel-control-next {
     width: 50px;
     height: 70px;
     align-content: space-between;
-    align-self: center;
+    align-self: center; 
    
 
-}
+}  */
 
 button:hover {
     background-color: whitesmoke;
 }
-/* header {
-    background-color: purple;
-    display: flex;
-    justify-content: space-between;
-    height: 130px;
-} */
 
+
+.luckiest_guy_regular {
+   
+    font-family: "Luckiest Guy", cursive;
+    font-weight: lighter;
+    font-style: normal;
+  }
+  
+  
+#myCarousel{
+    inline-size: auto;
+    box-sizing: content-box;
+}
 
     
 
@@ -71,14 +158,10 @@ button:hover {
     
 }
 
-.logoCabezera {
-   
-    display: flex;
-    margin-left: 350px;  
-    align-items: center;
-   }
- #logo{
 
+ #logo{
+    box-sizing: content-box;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,8 +174,16 @@ button:hover {
 #barraMedia{
     
    
-    background-color: black;
-
+    background-image: url(img/escaymar.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+#barraMedia p {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 3.5em;
 }
 #tienda{
     display: flex;
@@ -116,7 +207,60 @@ button:hover {
 .carta{
     width: 300px;
 }
-footer{
+
+
+footer {
+    background-color: rgb(6, 77, 158);
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.columnas {
+    display: flex;
+}
+
+.columna {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.columna h3 {
+    color: #fff;
+}
+
+.columna ul {
+    list-style: none;
+    padding: 0;
+}
+
+.columna ul li {
+    margin-bottom: 5px;
+}
+
+.redes-sociales a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.redes-sociales a:hover {
+    color: whitesmoke; 
+}
+  
+
+
+
+/* footer{
     position: relative;
     width: 100%;
     background: rgb(216, 166, 216);
@@ -126,8 +270,10 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-footer .social_icon,
+    
+
+}   */
+/* footer .social_icon,
 footer .menu
 {
    position: relative;
@@ -185,7 +331,7 @@ footer .ola#ola1{
     0%{
         background-position-x: 1000px;
     }
-}
+} */
 /* @media screen and (max-width:800px) {
     .logoCabezera 
         flex-direction: column;
