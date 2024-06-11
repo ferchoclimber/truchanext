@@ -1,7 +1,8 @@
 import React from 'react';
-import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css';
 import 'https://unpkg.com/boxicons@latest/css/boxicons.min.css';
-import './style.css';
+
+
+import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css';
 
 function HomePage() {
   return (
