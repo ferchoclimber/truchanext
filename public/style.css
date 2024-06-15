@@ -144,7 +144,7 @@ button:hover {
   }
   
   
-#myCarousel{
+#default-carousel{
     inline-size: auto;
     box-sizing: content-box;
 }
@@ -159,7 +159,7 @@ button:hover {
 }
 
 
- #logo{
+ #logo {
     box-sizing: content-box;
     width: 100%;
     display: flex;
