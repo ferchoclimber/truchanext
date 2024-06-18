@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import { SessionProvider } from "next-auth/react"
 import { Toaster } from "react-hot-toast";
-import './css/bootstrap.min.css';
+
 
 export default function App({
   Component,
